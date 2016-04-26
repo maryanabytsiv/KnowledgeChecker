@@ -15,4 +15,4 @@ TestNG;
 Log4j;
 lambda;
 Streams;
-Working with DB;
+Working with DB
