@@ -1,0 +1,44 @@
+{
+    "city": [
+        {
+            "name": "Kiev",
+            "country": "UA"
+        },
+        {
+            "name": "Pyatigorsk",
+            "country": "RU"
+        },
+        {
+            "name": "Uzhgorod",
+            "country": "UA"
+        },
+        {
+            "name": "Ternopil'",
+            "country": "UA"
+        },
+        {
+            "name": "Antalya",
+            "country": "TU"
+        },
+        {
+            "name": "Palma",
+            "country": "UA"
+        },
+        {
+            "name": "Paris",
+            "country": "FR"
+        },
+        {
+            "name": "Warsaw",
+            "country": "FR"
+        },
+        {
+            "name": "Krakow",
+            "country": "FR"
+        },
+        {
+            "name": "Odessa",
+            "country": "FR"
+        }
+    ]
+}
