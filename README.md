@@ -1,4 +1,4 @@
-# KnowledgeChecker
+# Knowledge checker
 
 
 Login page
@@ -10,9 +10,9 @@ Technology page add/delete new technology
   - 
 
 Plan:
-Localization
-TestNG
-Log4j
-lambda
-Streams
-Working with DB
+Localization;
+TestNG;
+Log4j;
+lambda;
+Streams;
+Working with DB;
