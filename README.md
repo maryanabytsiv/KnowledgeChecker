@@ -7,7 +7,7 @@ Index page with weather API
   - reading cities from JSON file
 Technology page add/delete new technology
   - using jquery
-  - 
+  - validation
 
 Plan:
 Localization;
