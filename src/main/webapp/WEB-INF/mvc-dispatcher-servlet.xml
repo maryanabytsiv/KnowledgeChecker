@@ -9,7 +9,7 @@
  
     <annotation-driven />
     <resources mapping="/resources/**" location="/resources/" />
-        <context:component-scan base-package="com.ss.mary.controller" />
+        <context:component-scan base-package="com.mary.*" />
     <beans:bean
         class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <beans:property name="prefix" value="/WEB-INF/pages/" />
@@ -29,7 +29,7 @@
         <beans:property name="dataSource" ref="dataSource" />
         <beans:property name="annotatedClasses">
             <beans:list>
-                <beans:value>com.ss.mary.model.Technology</beans:value>
+                <beans:value>com.mary.model.Technology</beans:value>
             </beans:list>
         </beans:property>
         <beans:property name="hibernateProperties">
@@ -42,10 +42,10 @@
         </beans:property>
     </beans:bean>
      
-    <beans:bean id="technologyDAO" class="com.ss.mary.dao.TechnologyDAOImpl">
+    <beans:bean id="technologyDAO" class="com.mary.dao.TechnologyDAOImpl">
         <beans:property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory" />
     </beans:bean>
-    <beans:bean id="technologyService" class="com.ss.mary.service.TechnologyServiceImpl">
+    <beans:bean id="technologyService" class="com.mary.service.TechnologyServiceImpl">
         <beans:property name="technologyDAO" ref="technologyDAO"></beans:property>
     </beans:bean>
      

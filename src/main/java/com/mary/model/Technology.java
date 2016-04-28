@@ -1,5 +1,5 @@
  
-package com.ss.mary.model;
+package com.mary.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

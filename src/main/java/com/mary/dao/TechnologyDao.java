@@ -1,10 +1,10 @@
-package com.ss.mary.dao;
+package com.mary.dao;
 
 import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.ss.mary.model.Technology;
+import com.mary.model.Technology;
 
 /**
  * Technology dao interface

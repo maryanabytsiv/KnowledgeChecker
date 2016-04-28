@@ -1,4 +1,4 @@
-package com.ss.mary.controller;
+package com.mary.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -47,7 +47,5 @@ public class LoginController {
 		model.setViewName("login");
 
 		return model;
-
 	}
-
 }

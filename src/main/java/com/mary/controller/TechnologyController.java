@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.ss.mary.controller;
+package com.mary.controller;
 
 /**
  *
  * @author mbytsiv
  */
-import com.ss.mary.model.Technology;
-import com.ss.mary.service.TechnologyService;
+import com.mary.model.Technology;
+import com.mary.service.TechnologyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;

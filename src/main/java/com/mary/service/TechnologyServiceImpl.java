@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.ss.mary.service;
+package com.mary.service;
 
 /**
  *
@@ -12,9 +12,9 @@ package com.ss.mary.service;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
  
-import com.ss.mary.model.Technology;
+import com.mary.model.Technology;
 import java.util.List;
-import com.ss.mary.dao.TechnologyDao;
+import com.mary.dao.TechnologyDao;
  
 @Service
 public class TechnologyServiceImpl implements TechnologyService {
