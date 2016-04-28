@@ -8,6 +8,7 @@ Index page with weather API
 Technology page add/delete new technology
   - using jquery
   - validation
+  - add, delete, read from DB Postgres
 
 Plan:
 Localization;
@@ -15,4 +16,4 @@ TestNG;
 Log4j;
 lambda;
 Streams;
-Working with DB
+
