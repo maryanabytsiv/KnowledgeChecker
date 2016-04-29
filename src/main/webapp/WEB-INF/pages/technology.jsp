@@ -58,8 +58,6 @@
         <h1 class="title">
             Add a Technology
         </h1>
-        <img src="resources/images/pic02.jpg" />
-
         <c:url var="addAction" value="/technology/add" ></c:url>
 
         <form:form action="${addAction}" commandName="technology">
