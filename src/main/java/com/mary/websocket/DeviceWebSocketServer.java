@@ -22,16 +22,16 @@ import java.util.logging.Logger;
 
 @ServerEndpoint("/actions")
 public class DeviceWebSocketServer {
-    
+
     @Inject
     private DeviceSessionHandler sessionHandler;
-    
- @OnOpen
+
+    @OnOpen
     public void open(Session session) {
         sessionHandler.addSession(session);
     }
 
-  @OnClose
+    @OnClose
     public void close(Session session) {
         sessionHandler.removeSession(session);
     }
@@ -41,7 +41,7 @@ public class DeviceWebSocketServer {
         Logger.getLogger(DeviceWebSocketServer.class.getName()).log(Level.SEVERE, null, error);
     }
 
- @OnMessage
+    @OnMessage
     public void handleMessage(String message, Session session) {
 
         try (JsonReader reader = Json.createReader(new StringReader(message))) {
