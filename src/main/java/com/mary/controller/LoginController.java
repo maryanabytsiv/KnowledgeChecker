@@ -13,9 +13,18 @@ public class LoginController {
 	public ModelAndView welcomePage() {
 
 		ModelAndView model = new ModelAndView();
-		model.addObject("title", "Spring Security Custom Login Form");
-		model.addObject("message", "This is welcome page!");
+//		model.addObject("title", "Spring Security Custom Login Form");
+//		model.addObject("message", "This is welcome page!");
 		model.setViewName("hello");
+		return model;
+
+	}
+        
+        @RequestMapping(value = { "/home**" }, method = RequestMethod.GET)
+	public ModelAndView homePage() {
+
+		ModelAndView model = new ModelAndView();
+		model.setViewName("home");
 		return model;
 
 	}
